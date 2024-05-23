@@ -1,0 +1,23 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    .cabecalho-imagem {
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+    }
+    
+    .cabecalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+
+    .cabecalho-menu-item {
+        font-family: Sarala;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
